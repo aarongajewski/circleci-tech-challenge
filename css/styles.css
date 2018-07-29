@@ -1,0 +1,33 @@
+.center
+{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.center div
+{
+    margin-left: -50%;
+    margin-top: -50%;
+    height: 100px;
+    width: 100px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: #90EE90;}
+
+.hidden {display: none;}
+
+.not-hidden {display: inline-block;}
+
+#textDisplay {
+  font-family: sans-serif;
+}

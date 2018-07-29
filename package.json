@@ -1,0 +1,21 @@
+{
+  "name": "circleci-techchallenge-ag",
+  "version": "1.0.0",
+  "description": "CircleCI Solutions Engineer Technical Challenge",
+  "main": "js/scripts.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aaron Gajewski",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.4.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
